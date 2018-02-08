@@ -1,3 +1,3 @@
-module SafetyDance
-  VERSION = "0.1.0"
+class SafetyDance
+  VERSION = "1.0.0"
 end

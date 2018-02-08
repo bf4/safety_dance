@@ -6,7 +6,7 @@ Example:
 
 ```ruby
 SafetyDance.new { dance! }.
-  then { |result| leave_friends_behind(!result) }.
+  then { |result| leave_friends_behind(result) }.
   rescue { |error| not_friends_of_mine(error) }.
   value!
 ```

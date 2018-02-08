@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["github@benjaminfleischer.com"]
 
   spec.summary       = %q{Response Objects pattern for resilient Ruby}
-  spec.description   = %q{SafetyDance.new { dance! }.then { |result| leave_friends_behind(!result) }.rescue { |error| not_friends_of_mine(error) }.value!}
+  spec.description   = %q{SafetyDance.new { dance! }.then { |result| leave_friends_behind(result) }.rescue { |error| not_friends_of_mine(error) }.value!}
   spec.homepage      = "https://github.com/bf4/safety_dance"
   spec.license       = "MIT"
 
